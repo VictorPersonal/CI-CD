@@ -52,8 +52,6 @@ services:
       start_period: 10s
   frontend:
     build:
-    c
-    q
       context: ./frontend
       dockerfile: Dockerfile
       args:
